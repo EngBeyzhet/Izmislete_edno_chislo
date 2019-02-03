@@ -14,11 +14,6 @@
             var dobavenotoChislo = Console.ReadLine();
             Console.Write("Въведи числото, което си получил: ");
             int vavedenotoChislo = int.Parse(Console.ReadLine());
-
-            while (vavedenotoChislo >= 1)
-            {
-                            vavedenotoChislo = (vavedenotoChislo / 10) % 10;
-                            Console.WriteLine("Числото, което си измислил е: " + vavedenotoChislo);
-            }
-
+            vavedenotoChislo = (vavedenotoChislo / 10) % 10;
+            Console.WriteLine("Числото, което си измислил е: " + vavedenotoChislo);
         }
