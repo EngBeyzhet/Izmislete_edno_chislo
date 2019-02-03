@@ -15,7 +15,10 @@
             Console.Write("Въведи числото, което си получил: ");
             int vavedenotoChislo = int.Parse(Console.ReadLine());
 
-            vavedenotoChislo = (vavedenotoChislo / 10) % 10;
-            Console.WriteLine("Числото, което си измислил е: " + vavedenotoChislo);
+            while (vavedenotoChislo >= 1)
+            {
+                            vavedenotoChislo = (vavedenotoChislo / 10) % 10;
+                            Console.WriteLine("Числото, което си измислил е: " + vavedenotoChislo);
+            }
 
         }
